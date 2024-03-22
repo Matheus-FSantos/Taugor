@@ -1,0 +1,24 @@
+{
+  "name": "tg-employee-managment-back-end",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "Back-end to taugor tecnical test",
+  "author": "Matheus Ferreira Santos",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "firebase": "^10.9.0",
+    "firebase-admin": "^12.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
